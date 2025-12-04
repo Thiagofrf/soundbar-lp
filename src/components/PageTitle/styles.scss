@@ -1,0 +1,28 @@
+.pageTitle {
+    position: absolute;
+    left: 50%;
+    top: 155px;
+    transform: translate(-50%, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    h1 {
+        font-weight: 900;
+        font-size: 140px;
+        margin-bottom: 27px;
+    }
+
+    h2 {
+        font-weight: 600;
+        font-size: 40px;
+
+        span {
+            display: block;
+            font-weight: 900;
+        }
+    }
+}

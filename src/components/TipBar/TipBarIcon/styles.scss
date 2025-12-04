@@ -1,0 +1,22 @@
+.tipBarIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    max-width: 270px;
+    max-height: 210px;
+
+    &--image {
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    &--text {
+        font-weight: 700;
+        color: #fff;
+    }
+}
