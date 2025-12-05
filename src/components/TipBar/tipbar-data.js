@@ -23,7 +23,7 @@ const tipBarProperties = [
     },
     {
         icon: CablesIcon,
-        text: "Entradas auxiliar (AUX) HDMI (ARC) óptico USB 2.0 | coaxial"
+        text: ["Entradas auxiliar (AUX)", "HDMI (ARC) óptico",  "USB 2.0 | coaxial"]
     }
 ]
 

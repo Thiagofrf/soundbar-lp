@@ -11,7 +11,11 @@
     justify-content: center;
     flex-direction: column;
 
-    padding: 6.25rem 18.75rem;
+    padding: 1rem 4rem;
+
+    @media (min-width: 1024px) {
+        padding: 6.25rem 18.75rem;
+    }
 
     &.blackBg {
         background-color: #222222;
@@ -19,16 +23,29 @@
     }
 
     h2 {
-        font-size: 3.125rem;
+        font-size: 1.5rem;
         font-weight: 700;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
+
+        @media (min-width: 1024px) {
+            font-size: 3.125rem;
+            margin-bottom: 30px;
+        }
     }
 
     p {
-        font-size: 1.625rem;
+        font-size: 0.8rem;
+
+        @media (min-width: 1024px) {
+            font-size: 1.625rem;
+        }
 
         ~ p {
-            margin-top: 75px;
+            margin-top: 16px;
+
+            @media (min-width: 1024px) {
+                margin-top: 75px;
+            }
         }
     }
 }

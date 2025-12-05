@@ -4,10 +4,14 @@ const TipBarIcon = ({icon, text}) => {
     return (
         <div className="tipBarIcon">
             <div className="tipBarIcon--image">
-                <img src={icon} alt={text} />
+                <img src={icon} />
             </div>
             <div className="tipBarIcon--text">
-                {text}
+                {Array.isArray(text) ? text.map((line, index) => (
+                    <span key={index}>{line}<br /></span>
+                )) :
+                    <span>{text}</span>
+                }
             </div>
         </div>
     )
