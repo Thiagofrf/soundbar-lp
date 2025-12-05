@@ -8,6 +8,11 @@
         flex-direction: row-reverse;
     }
 
+    &.center {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
     .textContent {
         display: flex;
         flex-direction: column;
@@ -34,7 +39,7 @@
 
     .imageContent {
         img {
-            max-width: 100%;
+            max-width: 700px;
         }
     }
 

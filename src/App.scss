@@ -4,3 +4,31 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+
+.plainText {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 6.25rem 18.75rem;
+
+    &.blackBg {
+        background-color: #222222;
+        color: #FFFFFF;
+    }
+
+    h2 {
+        font-size: 3.125rem;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 1.625rem;
+
+        ~ p {
+            margin-top: 75px;
+        }
+    }
+}
