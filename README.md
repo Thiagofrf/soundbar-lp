@@ -1,16 +1,26 @@
-# React + Vite
+# Soundbar Landing Page Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O objetivo é criar uma simples Landing Page com React, seguindo o layout proposto.
 
-Currently, two official plugins are available:
+## 🛠️ Construído com
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Seguindo os requisitos do projeto, essas foram as tecnologias usadas:
 
-## React Compiler
+- Javascript - Linguagem utilizada
+- Vite - Utilizei Vite por motivos de ambiente de desenvolvimento mais veloz e eficiente, menos robusto para um projeto menor.
+- ReactJs - Framework utilizado (com Vite)
+- Scss - Pré Compilador CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🔧 Instalação
 
-## Expanding the ESLint configuration
+Primeiro, você deve clonar esse repositório na sua máquina. Com o repositório clonado, abra-o no terminal e instale as dependências
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+yarn ou npm install
+```
+
+Após a instação das dependências, estamos prontos para rodar o projeto localmente:
+
+```
+yarn dev ou npm run dev
+```
